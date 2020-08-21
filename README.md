@@ -38,7 +38,7 @@ The Burp Suite Extension requires a separate Python 2.7 virtual environment due 
 
 1. Create a new python2.7 virtualenv for burp/jython, `virtualenv -p /usr/bin/python2.7 burp_venv`
 2. Load the venv, `source ./burp_venv/bin/activate`
-3. Install the required packages, `./burp_venv/bin/pip -r requirements`
+3. Install the required packages, `./burp_venv/bin/pip install -r requirements.txt`
 4. Configure the Python Environment by downloading and selecting the jython-standalone jar.
 5. Set the "Folder for loading modules" to the full path to `burp_venv/lib/python2.7/site-packages` that was created in steps 1-3.
 
